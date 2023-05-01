@@ -697,7 +697,7 @@ contract MoonopolyJr is Context, IERC20, Ownable {
 
     uint256 private _marketingFee;
     uint256 private _previousMarketingFee = _marketingFee;
-    address payable public marketingWallet = payable(0x45989118F572399E4838F5295da96626029a7eC1);
+    address payable public marketingWallet = payable(0x959BFD7B9c06cdF05eC831b12854EB2471E2C333);
 
     uint256 public sellLiquidityFee = 1;
     uint256 public sellMarketingFee = 4;
